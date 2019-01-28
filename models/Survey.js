@@ -3,7 +3,10 @@ const { Schema } = mongoose;
 const RecipientSchema = require('./Recipient');
 
 const surveySchema = new Schema({
-  //id: String,
+  _user: {
+    type: Schema.Types.ObjectId,
+    ref: 'User'
+  },
   title: String,
   subject: String,
   body: String,
@@ -15,7 +18,9 @@ const surveySchema = new Schema({
   no: {
     type: Number,
     default: 0
-  }
+  },
+  dateSent: Date,
+  lastResponded: Date
 });
 
 mongoose.model('surveys', surveySchema);
