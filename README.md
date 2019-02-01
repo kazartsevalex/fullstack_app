@@ -9,7 +9,8 @@ Full Stack JS app
 * Passport JS (passport google oauth 2.0);
 * Concurrently, Nodemon;
 * Stripe API Wrapper;
-* body-parser
+* body-parser;
+* SendGrid
 
 ## Frontend
 * React + Redux (ReactDOM, React-Redux, React router DOM, Redux thunk);
