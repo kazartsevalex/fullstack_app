@@ -13,7 +13,7 @@ Full Stack JS app
 * SendGrid
 
 ## Frontend
-* React + Redux (ReactDOM, React-Redux, React router DOM, Redux thunk);
+* React + Redux (ReactDOM, React-Redux, React router DOM, Redux thunk, Redux-Form);
 * Axios;
 * Materialize CSS;
 * Stripe (React Stripe Checkout)
