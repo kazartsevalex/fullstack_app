@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 
@@ -20,7 +20,7 @@ class App extends Component {
           <Header />
           <Route path="/" exact component={Landing} />
           <Route path="/surveys" exact component={Dashboard} />
-          <Route path="/surveys/new" component={SurveyNew} />
+          <Route path="/surveys/new" component={withRouter(SurveyNew)} />
         </div>
       </BrowserRouter>
     );
