@@ -10,7 +10,8 @@ Full Stack JS app
 * Concurrently, Nodemon;
 * Stripe API Wrapper;
 * body-parser;
-* SendGrid
+* SendGrid;
+* Localtunnel
 
 ## Frontend
 * React + Redux (ReactDOM, React-Redux, React router DOM, Redux thunk, Redux-Form);
