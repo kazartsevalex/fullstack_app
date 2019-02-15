@@ -11,7 +11,9 @@ Full Stack JS app
 * Stripe API Wrapper;
 * body-parser;
 * SendGrid;
-* Localtunnel
+* Localtunnel;
+* Path parser;
+* Lodash
 
 ## Frontend
 * React + Redux (ReactDOM, React-Redux, React router DOM, Redux thunk, Redux-Form);
